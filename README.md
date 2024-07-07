@@ -18,15 +18,18 @@ This project utilizes Google's Generative AI and Streamlit to perform sentiment 
    cd Sentiment-Analyzer
    
 2. Install dependencies:
-   '''bash 
-      pip install -r requirements.txt
-   
+   `````
+   pip install -r requirements.txt
+
 ## Usage
 1. Set up your Google Generative AI API key in config.py:
-  genai.configure(api_key="your-api-key")
+   `````
+   genai.configure(api_key="your-api-key")
 
-2. Run the Streamlit app:
+3. Run the Streamlit app:
+   `````
    streamlit run app.py
 
-3. Enter text in the provided field and click the ➡➡ button to analyze sentiment.
+4. Enter text in the provided field and click the ➡➡ button to analyze sentiment.
+   
 
